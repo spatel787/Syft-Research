@@ -1,0 +1,10 @@
+binary,syft_components,betterbom_components,syft_vulns,betterbom_vulns
+curl,1,2,34,36
+git,0,2,0,0
+ssh,0,13,0,2
+tar,0,2,0,0
+openssl,0,2,0,0
+python3,0,2,0,0
+sqlite3,0,4,0,32
+grep,0,4,0,2
+curl-linux,0,2,0,68

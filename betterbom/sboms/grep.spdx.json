@@ -1,0 +1,85 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "betterbom-sbom-grep",
+  "documentNamespace": "https://betterbom/5aa48819-20ff-4dae-941d-8d199f8796f5",
+  "creationInfo": {
+    "created": "2026-06-26T20:55:05Z",
+    "creators": [
+      "Tool: betterbom-0.1 (syft+otool+strings)"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-grep",
+      "name": "grep",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libbz2.1-0",
+      "name": "libbz2.1",
+      "versionInfo": "1.0.8",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-liblzma-1",
+      "name": "liblzma",
+      "versionInfo": "6.3.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libz-2",
+      "name": "libz",
+      "versionInfo": "1.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libSystem.B-3",
+      "name": "libSystem.B",
+      "versionInfo": "1356.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-grep",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-grep",
+      "relatedSpdxElement": "SPDXRef-Package-libbz2.1-0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-grep",
+      "relatedSpdxElement": "SPDXRef-Package-liblzma-1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-grep",
+      "relatedSpdxElement": "SPDXRef-Package-libz-2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-grep",
+      "relatedSpdxElement": "SPDXRef-Package-libSystem.B-3",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+NAME  VERSION  TYPE    
+curl  8.7.1    binary

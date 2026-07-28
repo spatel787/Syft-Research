@@ -1,0 +1,105 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "betterbom-sbom-curl",
+  "documentNamespace": "https://betterbom/1d6d2005-175a-4d58-a21e-5f6cbc82d7c9",
+  "creationInfo": {
+    "created": "2026-07-19T23:43:20Z",
+    "creators": [
+      "Tool: betterbom-0.2 (syft+otool+strings)"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-curl",
+      "name": "curl",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-curl-0",
+      "name": "curl",
+      "versionInfo": "8.7.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: syft, otool. Version from: syft. Versions reported: otool=9.0.0, syft=8.7.1. Aliases: curl, libcurl",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/curl@8.7.1"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:haxx:curl:8.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:curl:curl:8.7.1:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-zlib-1",
+      "name": "zlib",
+      "versionInfo": "1.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1.2.12. Aliases: libz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/zlib@1.2.12"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:zlib:zlib:1.2.12:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:zlib:1.2.12:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libsystem.b-2",
+      "name": "libsystem.b",
+      "versionInfo": "1356.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1356.0.0. Aliases: libSystem.B. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-curl",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-curl",
+      "relatedSpdxElement": "SPDXRef-Package-curl-0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-curl",
+      "relatedSpdxElement": "SPDXRef-Package-zlib-1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-curl",
+      "relatedSpdxElement": "SPDXRef-Package-libsystem.b-2",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}

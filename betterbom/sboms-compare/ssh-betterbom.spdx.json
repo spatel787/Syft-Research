@@ -1,0 +1,306 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "betterbom-sbom-ssh",
+  "documentNamespace": "https://betterbom/35959967-c313-4763-a5c1-53a7d9778b01",
+  "creationInfo": {
+    "created": "2026-07-20T00:41:49Z",
+    "creators": [
+      "Tool: betterbom-0.4 (syft+otool+strings)"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-foundation-0",
+      "name": "foundation",
+      "versionInfo": "5026.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=5026.5.4. Aliases: Foundation. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-kerberos-1",
+      "name": "kerberos",
+      "versionInfo": "6.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=6.0.0. Aliases: Kerberos",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/kerberos@6.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:kerberos:kerberos:6.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-opendirectory-2",
+      "name": "opendirectory",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1.0.0. Aliases: OpenDirectory",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/opendirectory@1.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:opendirectory:opendirectory:1.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libbsm-3",
+      "name": "libbsm",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/libbsm@1.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libbsm:libbsm:1.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-openssl-4",
+      "name": "openssl",
+      "versionInfo": "47.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=47.2.0. Aliases: libcrypto",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/openssl@47.2.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:openssl:openssl:47.2.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libpam-5",
+      "name": "libpam",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=3.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/libpam@3.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libpam:libpam:3.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libresolv-6",
+      "name": "libresolv",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1.0.0. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-zlib-7",
+      "name": "zlib",
+      "versionInfo": "1.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1.2.12. Aliases: libz",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/zlib@1.2.12"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:zlib:zlib:1.2.12:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:gnu:zlib:1.2.12:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-network-8",
+      "name": "network",
+      "versionInfo": "5812.121.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=5812.121.1. Aliases: Network",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/network@5812.121.1"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:network:network:5812.121.1:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-security-9",
+      "name": "security",
+      "versionInfo": "61901.120.66",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=61901.120.66. Aliases: Security. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libobjc.a-10",
+      "name": "libobjc.a",
+      "versionInfo": "228.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=228.0.0. Aliases: libobjc.A. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libsystem.b-11",
+      "name": "libsystem.b",
+      "versionInfo": "1356.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1356.0.0. Aliases: libSystem.B. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-corefoundation-12",
+      "name": "corefoundation",
+      "versionInfo": "5026.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=5026.5.4. Aliases: CoreFoundation. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-ssh",
+      "fileName": "./ssh",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "1d2512f2da73170a0f7bd28892aff68726e508b1"
+        }
+      ],
+      "comment": "Scan target. No version identified, so not asserted as a package."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-File-ssh",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-foundation-0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-kerberos-1",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-opendirectory-2",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libbsm-3",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-openssl-4",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-5",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libresolv-6",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-zlib-7",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-network-8",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-security-9",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libobjc.a-10",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libsystem.b-11",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-corefoundation-12",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "betterbom-sbom-curl-linux",
+  "documentNamespace": "https://betterbom/2cdbfe0a-cb45-462f-bf24-8ae3beb9a4ff",
+  "creationInfo": {
+    "created": "2026-07-20T00:42:05Z",
+    "creators": [
+      "Tool: betterbom-0.4 (syft+otool+strings)"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-curl-0",
+      "name": "curl",
+      "versionInfo": "8.17.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: strings. Version from: strings. Versions reported: strings=8.17.0. Aliases: libcurl",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/curl@8.17.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:haxx:curl:8.17.0:*:*:*:*:*:*:*"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:curl:curl:8.17.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-openssl-1",
+      "name": "openssl",
+      "versionInfo": "3.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: strings. Version from: strings. Versions reported: strings=3.5.4",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/openssl@3.5.4"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:openssl:openssl:3.5.4:*:*:*:*:*:*:*"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-curl-linux",
+      "fileName": "./curl-linux",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "bbbaca2208b5e82b9bc682914de2dbaa95ba19cb"
+        }
+      ],
+      "comment": "Scan target. No version identified, so not asserted as a package."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-File-curl-linux",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-curl-linux",
+      "relatedSpdxElement": "SPDXRef-Package-curl-0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-curl-linux",
+      "relatedSpdxElement": "SPDXRef-Package-openssl-1",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

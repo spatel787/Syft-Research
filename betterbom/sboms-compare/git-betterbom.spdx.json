@@ -1,0 +1,75 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "betterbom-sbom-git",
+  "documentNamespace": "https://betterbom/2889bce7-65b7-4cb5-8dcc-777fcda6c20c",
+  "creationInfo": {
+    "created": "2026-07-20T00:41:46Z",
+    "creators": [
+      "Tool: betterbom-0.4 (syft+otool+strings)"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-libxcselect-0",
+      "name": "libxcselect",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:generic/libxcselect@1.0.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "cpe23Type",
+          "referenceLocator": "cpe:2.3:a:libxcselect:libxcselect:1.0.0:*:*:*:*:*:*:*"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libsystem.b-1",
+      "name": "libsystem.b",
+      "versionInfo": "1356.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool. Version from: otool. Versions reported: otool=1356.0.0. Aliases: libSystem.B. Apple system library \u2014 no public CVE data; not identifier-tagged"
+    }
+  ],
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-git",
+      "fileName": "./git",
+      "checksums": [
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "0e7c74d6a8dc91c5ca910b8700c72a4db2eeede5"
+        }
+      ],
+      "comment": "Scan target. No version identified, so not asserted as a package."
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-File-git",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-git",
+      "relatedSpdxElement": "SPDXRef-Package-libxcselect-0",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-File-git",
+      "relatedSpdxElement": "SPDXRef-Package-libsystem.b-1",
+      "relationshipType": "CONTAINS"
+    }
+  ]
+}

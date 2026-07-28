@@ -1,0 +1,211 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "betterbom-sbom-ssh",
+  "documentNamespace": "https://betterbom/44b814ec-9d5e-4cef-a3fc-6ca1966c588d",
+  "creationInfo": {
+    "created": "2026-06-26T20:55:01Z",
+    "creators": [
+      "Tool: betterbom-0.1 (syft+otool+strings)"
+    ]
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-ssh",
+      "name": "ssh",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Foundation-0",
+      "name": "Foundation",
+      "versionInfo": "5026.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Kerberos-1",
+      "name": "Kerberos",
+      "versionInfo": "6.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-OpenDirectory-2",
+      "name": "OpenDirectory",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libbsm-3",
+      "name": "libbsm",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libcrypto-4",
+      "name": "libcrypto",
+      "versionInfo": "47.2.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libpam-5",
+      "name": "libpam",
+      "versionInfo": "3.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libresolv-6",
+      "name": "libresolv",
+      "versionInfo": "1.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libz-7",
+      "name": "libz",
+      "versionInfo": "1.2.12",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Network-8",
+      "name": "Network",
+      "versionInfo": "5812.121.1",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-Security-9",
+      "name": "Security",
+      "versionInfo": "61901.120.66",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libobjc.A-10",
+      "name": "libobjc.A",
+      "versionInfo": "228.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-libSystem.B-11",
+      "name": "libSystem.B",
+      "versionInfo": "1356.0.0",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-CoreFoundation-12",
+      "name": "CoreFoundation",
+      "versionInfo": "5026.5.4",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "supplier": "NOASSERTION",
+      "comment": "Detected by: otool"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-ssh",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-Foundation-0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-Kerberos-1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-OpenDirectory-2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libbsm-3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libcrypto-4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libpam-5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libresolv-6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libz-7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-Network-8",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-Security-9",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libobjc.A-10",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-libSystem.B-11",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-ssh",
+      "relatedSpdxElement": "SPDXRef-Package-CoreFoundation-12",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
