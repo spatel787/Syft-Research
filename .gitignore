@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+betterbom/sboms/
+betterbom/sboms-compare/
+*.spdx.json
+curl-source/
